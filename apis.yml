@@ -1,7 +1,30 @@
 aid: mk-semi
-name: mk-semi
-description: mk-semi is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mk-semi.png
+name: Mauna Kea Semiconductors
+description: >-
+  Mauna Kea Semiconductors (mk-semi.com) is a Silicon Valley-based fabless
+  semiconductor company founded by industry veterans to develop what it
+  describes as the world's lowest-power Ultra-Wideband (UWB) solution for high
+  precision location and direction-finding applications. Its UWB chips, modules,
+  and integrated System-on-Chip solutions target smartphones, wearables, IoT
+  devices, and automotive use cases, combining digital and analog/mixed-signal
+  design expertise. Headquartered in Cupertino, California, with engineering
+  operations in Shanghai, Beijing, and Shenzhen, the company is led by CEO
+  Dr. Yifeng Zhang and is backed by Qiming. It was added to the API Evangelist
+  network as a portfolio company of Qiming; it is a hardware/silicon vendor with
+  no public API or developer surface at this time (documentation, blog, and
+  careers pages are marked "Coming Soon").
 url: https://raw.githubusercontent.com/api-evangelist/mk-semi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductors
+- Ultra-Wideband
+- UWB
+- Hardware
+- Chips
+- IoT
+- Positioning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://mk-semi.com
+- type: About
+  url: https://mk-semi.com/about.html
+- type: Products
+  url: https://mk-semi.com/products.html
+- type: Support
+  url: https://mk-semi.com/support.html
+- type: Contact
+  url: https://mk-semi.com/sales.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mauna-kea-semiconductors-corporation/
+- type: DomainSecurity
+  url: security/mk-semi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
