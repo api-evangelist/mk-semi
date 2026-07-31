@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: mk-semi.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct 16 04:08:20 2026 GMT
+  hsts: false
+domains:
+- domain: mk-semi.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
