@@ -37,6 +37,9 @@ description: >-
   no public API or developer surface at this time (documentation, blog, and
   careers pages are marked "Coming Soon").
 url: https://raw.githubusercontent.com/api-evangelist/mk-semi/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It was added to the API Evangelist network as a portfolio company of Qiming; it is a hardware/silicon vendor with no public API or developer surface at this time (documentation, blog, and careers page"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
